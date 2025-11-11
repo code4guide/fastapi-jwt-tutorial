@@ -4,6 +4,7 @@ This repository contains a simple FastAPI tutorial that demonstrates JWT-based a
 
 ## How to run
 - Start the development server with `uvicorn main:app --reload`.
+- If you see a version-related error from `uvicorn`, try `python -m uvicorn main:app --reload` instead.
 - Request a token from `/login`, then try `/users/me` and `/secret` to walk through the JWT flow.
 
 ## Test walkthrough
